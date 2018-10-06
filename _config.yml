@@ -1,0 +1,8 @@
+baseurl: ''
+url: ''
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - _assets
