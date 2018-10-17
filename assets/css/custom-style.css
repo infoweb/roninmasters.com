@@ -1,0 +1,23 @@
+.divider-diagonal:before {
+	border-right-color: transparent;
+	border-left-width: 200px;
+	border-left-style: solid;
+	border-top: 1000px solid transparent;
+	height: 1000px;
+	margin-bottom: -1000px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: '';
+	z-index: 1;
+  }
+
+.divider-diagonal.divider-diagonal-r:before {
+	border-left-color: transparent;
+	border-right-width: 200px;
+	border-right-style: solid;
+	border-top: 1000px solid transparent;
+	right: 0;
+	left: auto;
+}
